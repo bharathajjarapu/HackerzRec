@@ -1,5 +1,14 @@
 # ArcVision - Image Recognition API
-Made by Bharath, Abhisehk, & Harsh.
+
+## Introduction
+
+This is a Flask-based Image Recognition API that allows users to upload images and receive predictions or information about the recognized objects. This project is designed as a hackathon product, providing a simple and efficient way to perform image recognition tasks using pre-trained machine learning model which is finetuned for smaller devices i.e YOLO Lite.
+
+## Features
+
+- **User-friendly Interface :** The API provides a simple web interface where users can upload images easily.
+- **Object Detection :** Utilizes YOLO Lite Self made (You Only Look Once) model for object detection in images.
+- **Output Visualization :** The recognized objects are highlighted in the output image with bounding boxes and labels.
 
 ## Login
 <img src="/images/Login.png" width="850" alt="login_screenshot">
@@ -12,16 +21,6 @@ Made by Bharath, Abhisehk, & Harsh.
 
 ## Output
 <img src="/images/output.jpg" width="850" alt="login_screenshot">
-
-## Introduction
-
-This is a Flask-based Image Recognition API that allows users to upload images and receive predictions or information about the recognized objects. This project is designed as a hackathon product, providing a simple and efficient way to perform image recognition tasks using pre-trained machine learning model which is finetuned for smaller devices i.e YOLO Lite.
-
-## Features
-
-- **User-friendly Interface :** The API provides a simple web interface where users can upload images easily.
-- **Object Detection :** Utilizes YOLO Lite Self made (You Only Look Once) model for object detection in images.
-- **Output Visualization :** The recognized objects are highlighted in the output image with bounding boxes and labels.
 
 ## Getting Started
 
